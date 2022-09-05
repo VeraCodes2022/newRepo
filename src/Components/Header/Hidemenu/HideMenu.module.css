@@ -1,0 +1,55 @@
+
+
+.hidemenu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    width: 80%;
+    height: 100%;
+    padding: 60px;
+    margin: auto;
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+
+.navbar{
+    align-self: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.navbar > li {
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+.navbar > li :hover{
+    color:green;
+    font-size: 1.2re;
+}
+
+.input{
+width: 250px;
+height: 26px;
+}
+
+
+.btn{
+font-size: 18px;
+color: white;
+background-color: #4c8930;
+border: none;
+height:30px;
+width: 80px;
+border-radius: 5px;
+align-self: center;
+margin-left: 10px;
+}
